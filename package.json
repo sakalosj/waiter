@@ -1,0 +1,25 @@
+{
+  "name": "waiter",
+  "version": "1.0.0",
+  "description": "Wait for signals via HTTP and WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakalosj/waiter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sakalosj/waiter/issues"
+  },
+  "homepage": "https://github.com/sakalosj/waiter#readme",
+  "dependencies": {
+    "ws": "^8.21.0"
+  }
+}
